@@ -17,7 +17,7 @@ namespace EmberSpirit
         private static bool toggle = true;
         private static Font txt;
         private static Font not;
-        private static Key KeyCombo = Key.D;
+        private static Key KeyCombo = Key.v;
         private static bool loaded;
         private static Hero me;
         private static Hero target;
@@ -302,7 +302,7 @@ namespace EmberSpirit
         {
             if (!Game.IsChatOpen)
             {
-                if (Game.IsKeyDown(KeyCombo))
+                if (Game.IsKeyDown(KeyCombo))(System.Windows.Input.Key.v)) 
                 {
                     activated = true;
                 }
